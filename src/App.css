@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  width:20%;
+  margin: 1px;
+  padding: 5px;
+  border: 1px solid black;
+}
+.user img{
+  width: 190px;
+  height: 150px;
+}
+header{
+  width: 100%;
+  margin: 10px;
+  height: 50px;
+  background-color: rgba(17, 88, 240, 0.623);
+  text-align: center;
+  color :white;
+}
+.listUsers{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  
+}
+.user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 280px;
+
+  width:100%;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid black;
+}
+button{
+  width: 50%;
+  height: 30px;
+  border-radius: 9px;
+  background-color: rgba(9, 128, 9, 0.541);
+  text-align: center;
+  margin: 2px;
+}
+button a{
+  color: white
+  ;
+  text-decoration: none;
+}
